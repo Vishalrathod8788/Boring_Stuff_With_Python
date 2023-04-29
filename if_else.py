@@ -7,7 +7,7 @@ name = 'Vishal'
 
 password = 'VGRcoder'
 
-if password == 'VGRcoder':
+if password == 'Vishal':
     print('Access Granted...')
 else :
     print('Wrong Password...')
