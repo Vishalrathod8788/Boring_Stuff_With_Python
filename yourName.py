@@ -1,4 +1,4 @@
-name = ''
+name = '' 
 
 # While Statement
 while name != 'your name':
@@ -8,6 +8,10 @@ while name != 'your name':
     
 print('Thank you!')
 
+# infinite While Loop
+while True :
+    print('Hello World...')  
+
 # while with if Statement
 while True :
     print('Please type your name.')
@@ -16,7 +20,3 @@ while True :
         break
         
 print('Thank you!')
-
-# infinite While Loop
-while True :
-    print('Hello World...')
