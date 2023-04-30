@@ -1,11 +1,11 @@
-# name = ''
+name = ''
 
-# while name != 'your name':
-#     print('Please type your name.')
+while name != 'your name':
+    print('Please type your name.')
     
-#     name = input()
+    name = input()
     
-# print('Thank you!')
+print('Thank you!')
 
 while True :
     print('Please type your name.')
@@ -14,3 +14,6 @@ while True :
         break
         
 print('Thank you!')
+
+while True :
+    print('Hello World...')
