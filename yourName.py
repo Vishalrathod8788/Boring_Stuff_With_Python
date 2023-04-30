@@ -1,16 +1,4 @@
-name = '' 
 
-# While Statement
-while name != 'your name':
-    print('Please type your name.')
-    
-    name = input()
-    
-print('Thank you!')
-
-# infinite While Loop
-while True :
-    print('Hello World...')  
 
 # while with if Statement
 while True :
