@@ -18,7 +18,7 @@ try :
         print('That is a lot of cats.')
     else :
         print('How many dogs do you have ?')
-except :
+except ValueError :
     print('You did not enter a number.')
     
 print('Done.')
