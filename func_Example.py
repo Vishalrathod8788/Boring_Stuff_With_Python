@@ -4,3 +4,6 @@ def hello() :
 hello()
 hello()
 hello()
+
+def PlushOne(number) :
+    return number + 1
