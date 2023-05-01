@@ -10,7 +10,6 @@
 # print(div42by(2))
 
 print('How many cats do you have ?')
-
 numCat = input()
 
 try :
