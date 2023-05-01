@@ -21,3 +21,7 @@ def getAnswer(answer) :
         return 'very doubtful'
     else :
         return 'no idea'
+print('Think of a Yes?no question, and press enteer to see')
+input()
+
+print(getAnswer(random.randint(1, 9)))
