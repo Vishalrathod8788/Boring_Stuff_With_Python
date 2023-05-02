@@ -22,4 +22,17 @@ if guess == secretNumber:
 
 else:
     print('Nope. The number I was thinking of was ' + str(secretNumber))
-    
+
+
+
+# This is the Guess the Number Game
+
+import random
+
+print('Hello, What is Your Name ?')
+name = input()
+
+print('Well, ' + name + ', I am thinking of a number between 1 and 20.')
+
+secretNumber = random.randint(1, 20)
+
