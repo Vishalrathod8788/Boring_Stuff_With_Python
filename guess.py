@@ -19,4 +19,7 @@ for guessesTaken in range(1, 7):
         
 if guess == secretNumber:
     print('Good job, ' + name + '! You guessed my number in ' + str(guessesTaken) + ' guesses!')
+
+else:
+    print('Nope. The number I was thinking of was ' + str(secretNumber))
     
