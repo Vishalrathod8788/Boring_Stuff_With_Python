@@ -44,5 +44,8 @@ spam = ['Cat', 'rat', 'Dog', 'Elephant']
 
 # print(str(4))
 
-print(list('Hello'))
+# print(list('Hello'))
 
+# print('Hello' in ['Hi', 'Hy', 'Hello'])
+
+# print(42 not in ['42', 'Hello', 'How Are You'])
