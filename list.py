@@ -17,8 +17,19 @@ spam = ['Cat', 'rat', 'Dog', 'Elephant']
 
 # print(spam[1:3]) 
 
-spam[1 : 3] = ['Monkey', 'Donkey']
+# spam[1 : 3] = ['Monkey', 'Donkey']
+
+# # print(spam)
+
+# print(spam[:3])
+
+# spam = ['cat', 'bat', 'rat', 'Elephant']
+
+# del spam[2]
 
 # print(spam)
 
-print(spam[:3])
+# print(len('Hello'))
+
+print(len([1,2,3,4]))
+ 
