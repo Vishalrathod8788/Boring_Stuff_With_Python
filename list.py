@@ -38,6 +38,11 @@ spam = ['Cat', 'rat', 'Dog', 'Elephant']
 # print([1,2,3,4,5] + [6,7,8,9,10])
  
 
-print([1,2,3,4] * 2)
+# print([1,2,3,4] * 2)
 
-print('Hello' * 5)
+# print('Hello' * 5)
+
+# print(str(4))
+
+print(list('Hello'))
+
