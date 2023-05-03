@@ -19,4 +19,6 @@ spam = ['Cat', 'rat', 'Dog', 'Elephant']
 
 spam[1 : 3] = ['Monkey', 'Donkey']
 
-print(spam)
+# print(spam)
+
+print(spam[:3])
