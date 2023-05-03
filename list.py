@@ -7,6 +7,10 @@ spam = [['Cat', 'rat', 'Dog', 'Elephant'], [1,2,3,4,5,6,7,8,9,10]]
 # print(spam[0])
 # print(spam[0][1]) 
 
-spam[1][1] = 'Hello'
+# spam[1][1] = 'Hello'
 
-print(spam[-1][-1])
+# print(spam[-1][-1])
+ 
+
+print(spam[0][1])
+print(spam[0][2])
