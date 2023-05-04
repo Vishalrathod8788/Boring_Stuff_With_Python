@@ -16,6 +16,9 @@ spam = ['Hello', 'Hi', 'Hh']
 
 # print(spam.index('Hello'))
 
-spam.append('HYY')
+# spam.append('HYY')
 
-print(spam) 
+# print(spam) 
+
+print(spam.index('Hh'))
+
