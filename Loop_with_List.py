@@ -22,3 +22,9 @@ spam = ['Hello', 'Hi', 'Hh']
 
 print(spam.index('Hh'))
 
+spam = ['One', 'Two', 'Three']
+
+
+
+spam.insert(1, 'HYY')
+print(spam)
