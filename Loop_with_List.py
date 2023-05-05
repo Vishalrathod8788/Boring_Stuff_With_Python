@@ -28,3 +28,12 @@ spam = ['One', 'Two', 'Three']
 
 spam.insert(1, 'HYY')
 print(spam)
+
+spam.remove('HYY')
+print(spam)
+
+spam = [3,2,4,1,6,5]
+
+spam.sort()
+
+print(spam)
