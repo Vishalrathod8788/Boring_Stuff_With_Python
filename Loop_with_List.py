@@ -38,5 +38,9 @@ spam = ['Hello', 'Hi', 'Hh']
 
 # print(spam)
 
-print(list('Hello'))
+# print(list('Hello'))
 
+name = 'Zophie a cat'
+
+
+print(name[7])
