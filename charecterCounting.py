@@ -16,3 +16,6 @@ for character in message.upper():
 
 pprint.pprint(count)
 
+rjtext = pprint.pformat(count)
+
+print(rjtext)
