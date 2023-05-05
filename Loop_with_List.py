@@ -54,8 +54,10 @@ spam = [1,2,3,4,5,6,7]
 
 swap = spam
 
+print(spam)
+
 spam[2] = 'VGRcoder'
 
-print(spam)
+
 
 print(swap)
