@@ -69,6 +69,7 @@ print(spam)
 
 spam[2] = 'VGRcoder'
 
-
-
 print(swap)
+
+
+# append Method in List
