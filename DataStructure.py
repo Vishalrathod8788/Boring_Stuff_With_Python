@@ -25,3 +25,6 @@ def printBoard(board) :
     print('-----')
     print(board['low-L'] + '|' +  board['low-M'] + '|' + board['low-R'])
 
+printBoard(theBoard)
+
+print(printBoard)
