@@ -49,3 +49,26 @@ spam = ['Cat', 'rat', 'Dog', 'Elephant']
 # print('Hello' in ['Hi', 'Hy', 'Hello'])
 
 # print(42 not in ['42', 'Hello', 'How Are You'])
+# print(list('Hello'))
+
+# name = 'Zophie a cat'
+
+# print(name[7])
+
+# name[7] = 'Vishal'
+
+# newName = name[0:7] + 'The' + name[8 : 12]
+
+# print(newName)
+
+spam = [1,2,3,4,5,6,7]
+
+swap = spam
+
+print(spam)
+
+spam[2] = 'VGRcoder'
+
+
+
+print(swap)
