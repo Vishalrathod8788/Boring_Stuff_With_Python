@@ -40,7 +40,12 @@ spam = ['Hello', 'Hi', 'Hh']
 
 # print(list('Hello'))
 
-name = 'Zophie the cat'
+name = 'Zophie a cat'
 
+# print(name[7])
 
-print(name[7])
+# name[7] = 'Vishal'
+
+newName = name[0:7] + 'The' + name[8 : 12]
+
+print(newName)
