@@ -37,3 +37,7 @@ spam = [3,2,4,1,6,5]
 spam.sort()
 
 print(spam)
+
+
+
+print(list('Hello'))
