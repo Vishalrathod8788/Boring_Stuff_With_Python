@@ -3,9 +3,9 @@
 
 # Author : Vishal Rathod
 
-myCat = {'size' : 'fat', 'color' : 'red', 'height' : str(162)}
+# myCat = {'size' : 'fat', 'color' : 'red', 'height' : str(162)}
 
-print('Mycat has ' + myCat['height'])
+# print('Mycat has ' + myCat['height'])
 
 
 # Output : Mycat has 162
