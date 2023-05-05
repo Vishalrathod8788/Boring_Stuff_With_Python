@@ -38,6 +38,4 @@ spam.sort()
 
 print(spam)
 
-
-
 print(list('Hello'))
