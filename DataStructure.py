@@ -1,10 +1,9 @@
-cat = {'name' : 'Cinny', 'age' : 'str(2)', 'color' : 'White'}
+# Author : Vishal Rathod
 
-allCat = []
+import pprint
 
-allCat.append({'name': 'One', 'age': 'str(6)', 'color': 'Black'})
-allCat.append({'name': 'Two', 'age': 'str(4)', 'color': 'Red'})
-allCat.append({'name': 'Three', 'age': 'str(7)', 'color': 'Blue'})
-allCat.append({'name': 'Four', 'age': 'str(10)', 'color': 'Green'})
-allCat.append({'name': 'Five', 'age': 'str(12)', 'color': 'White'})
- 
+theBoard  = {'top-L' : ' ', 'top-M' : ' ', 'top-R' : ' ',
+             'mid-L' : ' ', 'mid-M' : ' ', 'mid-R' : ' ',
+             'low-L' : ' ', 'low-M' : ' ', 'low-R' : ' '}
+
+pprint.pprint(theBoard)
