@@ -4,4 +4,5 @@ allCat = []
 
 allCat.append({'name': 'One', 'age': 'str(6)', 'color': 'Black'})
 allCat.append({'name': 'Two', 'age': 'str(4)', 'color': 'Red'})
-
+allCat.append({'name': 'Three', 'age': 'str(7)', 'color': 'Blue'})
+    
