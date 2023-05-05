@@ -8,4 +8,6 @@ theBoard  = {'top-L' : ' ', 'top-M' : ' ', 'top-R' : ' ',
 
 pprint.pprint(theBoard)
 
+theBoard['mid-M'] = 'X'
 
+pprint.pprint(theBoard)
