@@ -20,22 +20,23 @@ spam = ['Hello', 'Hi', 'Hh']
 
 # print(spam) 
 
-print(spam.index('Hh'))
+# print(spam.index('Hh'))
 
-spam = ['One', 'Two', 'Three']
+# spam = ['One', 'Two', 'Three']
 
 
 
-spam.insert(1, 'HYY')
-print(spam)
+# spam.insert(1, 'HYY')
+# print(spam)
 
-spam.remove('HYY')
-print(spam)
+# spam.remove('HYY')
+# print(spam)
 
-spam = [3,2,4,1,6,5]
+# spam = [3,2,4,1,6,5]
 
-spam.sort()
+# spam.sort()
 
-print(spam)
+# print(spam)
 
 print(list('Hello'))
+
