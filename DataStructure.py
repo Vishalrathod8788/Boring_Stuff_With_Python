@@ -10,4 +10,10 @@ pprint.pprint(theBoard)
 
 theBoard['mid-M'] = 'X'
 
+theBoard['mid-L'] = 'X'
+theBoard['top-M'] = 'O'
+theBoard['top-L'] = 'O'
+theBoard['top-R'] = 'O'
+theBoard['low-R'] = 'X'
+
 pprint.pprint(theBoard)
