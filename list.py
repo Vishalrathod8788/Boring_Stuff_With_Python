@@ -1,4 +1,4 @@
-spam = ['Cat', 'rat', 'Dog', 'Elephant']
+# spam = ['Cat', 'rat', 'Dog', 'Elephant']
 
 # print(spam)
 
@@ -71,12 +71,17 @@ spam = ['Cat', 'rat', 'Dog', 'Elephant']
 
 # print(swap)
 
-# append Method in List
+#  ****   ---->>>>    append Method in List
 
+
+
+
+one = [1,2,1,1,1,]
+
+def eggs(one) :
+    one.append('Hello')
 
 spam = [1,2,3,4,5]
+eggs(one)
 
-def eggs(perma) :
-    perma.append('Hi')
-
-print(eggs(spam))
+print(spam)
