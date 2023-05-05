@@ -61,15 +61,15 @@
 
 # print(newName)
 
-# spam = [1,2,3,4,5,6,7]
+spam = [1,2,3,4,5,6,7]
 
-# swap = spam
+swap = spam
 
-# print(spam)
+print(spam)
 
-# spam[2] = 'VGRcoder'
+spam[2] = 'VGRcoder'
 
-# print(swap)
+print(swap)
 
 #  ****   ---->>>>    append Method in List
 
