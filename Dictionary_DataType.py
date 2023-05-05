@@ -22,3 +22,9 @@ demo = {'surname' : 'Rathod', 'name' : 'Vishal', 'age' : str(18)}
 print(spam == demo)
 
 print('My name is ' + spam['name'] + ' ' + spam['surname'] + ' and my age is ' + spam['age'])
+
+# Output : My name is Vishal Rathod and my age is 18
+
+print('name' in spam)
+
+print('Height' not in spam)
