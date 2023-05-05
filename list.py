@@ -71,5 +71,9 @@ spam[2] = 'VGRcoder'
 
 print(swap)
 
-
 # append Method in List
+
+spam = [1,2,3,4,5]
+
+def eggs(perma) :
+    perma.append('Hi')
