@@ -39,6 +39,6 @@
 spam = ['Cat', 'Dog', 'Monkey', 'Cow', 'Buffelo']
 
 # print(','.join(spam))
-demo = ' '.join(spam)
+demo = ','.join(spam)
 
 print(demo)
