@@ -30,8 +30,14 @@
 # startwith()
 # endwith()
 
-print('Hello...'.startswith('H'))
+# print('Hello...'.startswith('H'))
 
-print('How are you...'.endswith('.'))
+# print('How are you...'.endswith('.'))
 
 # join()
+
+spam = ['Cat', 'Dog', 'Monkey', 'Cow', 'Buffelo']
+
+# demo = 'World'
+
+print(','.join(spam))
