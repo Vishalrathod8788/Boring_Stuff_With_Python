@@ -23,3 +23,4 @@
 print('hello'.isalpha())
 print('hello'.isalnum())
 print('Hello Friends How Are You...?'.istitle())
+print('hello world'.title())
