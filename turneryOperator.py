@@ -6,3 +6,7 @@ if a > 0:
 else:
     sign = "negative"
 
+# Pythonic way 🐍 - Use a ternary operator ✅
+sign = "positive" if (a > 0) else "negative" # parentheses are optional
+
+print(sign)
