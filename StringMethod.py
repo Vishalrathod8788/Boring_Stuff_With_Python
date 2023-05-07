@@ -34,3 +34,4 @@ print('Hello...'.startswith('H'))
 
 print('How are you...'.endswith('.'))
 
+# join()
