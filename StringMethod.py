@@ -38,6 +38,4 @@
 
 spam = ['Cat', 'Dog', 'Monkey', 'Cow', 'Buffelo']
 
-# demo = 'World'
-
 print(','.join(spam))
