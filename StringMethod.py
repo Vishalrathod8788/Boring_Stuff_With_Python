@@ -45,7 +45,7 @@ demo = '\n\t'.join(spam)
 
 # split()
 
-# print('My name is Vishal Rathod'.split(' '))
+print('My name is Vishal Rathod'.split(' '))
 
 # ljust() left Justify
 # rjust() Right Justify
