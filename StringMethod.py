@@ -20,12 +20,12 @@
 # isdigit()
 # isdecimal()
 
-# print('hello'.isalpha())
-# print('hello'.isalnum())
-# print('Hello Friends How Are You...?'.istitle())
-# print('hello world'.title())
-# print('Hello World'[5].isspace())
-# print('13456'.isdecimal())
+print('hello'.isalpha())
+print('hello'.isalnum())
+print('Hello Friends How Are You...?'.istitle())
+print('hello world'.title())
+print('Hello World'[5].isspace())
+print('13456'.isdecimal())
 
 # startwith()
 # endwith()
