@@ -27,5 +27,5 @@ print('hello world'.title())
 print('Hello World'[5].isspace())
 print('13456'.isdecimal())
 
-startwith()
-endwith()
+# startwith()
+# endwith()
