@@ -6,3 +6,10 @@ contains_neg = False # flag
 for num in nums:
     if num < 0:
         contains_neg = True
+
+
+# Pythonic way 🐍 - Using the built-in "any" function ✅
+contains_neg = any(num < 0 for num in nums) # True
+
+# Bonus Tip 💡: Python also has a built-in "all" function ✅
+contains_neg = not all(num >= 0 for num in nums) # True
