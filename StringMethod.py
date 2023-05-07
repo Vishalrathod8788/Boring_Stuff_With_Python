@@ -35,10 +35,10 @@
 # print('How are you...'.endswith('.'))
 
 # join()
-
+# Convert Array into String
 spam = ['Cat', 'Dog', 'Monkey', 'Cow', 'Buffelo']
 
 # print(','.join(spam))
-demo = ','.join(spam)
+demo = '\n\t'.join(spam)
 
 print(demo)
