@@ -50,12 +50,24 @@ demo = '\n\t'.join(spam)
 # ljust() left Justify
 # rjust() Right Justify
 
-print('hello'.rjust(50 , '*'))
+# print('hello'.rjust(50 , '*'))
 
-print('Hello'.ljust(45, '-') + 'hello')
+# print('Hello'.ljust(45, '-') + 'hello')
 
 # Center()
-name = input()
-print('Helllo'.center(40))
+# name = input()
+# print('Helllo'.center(40))
 
-print(name.center(50, '='))
+# print(name.center(50, '='))
+
+
+# strip()
+# rstrip()
+# lstrip()
+
+spam = 'Hello'.rjust(10)
+
+print(spam)
+print(spam.strip())
+
+print('         Vishal           '.strip())
