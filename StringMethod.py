@@ -47,9 +47,12 @@ demo = '\n\t'.join(spam)
 
 # print('My name is Vishal Rathod'.split(' '))
 
-# ljust()
-# rjust()
+# ljust() left Justify
+# rjust() Right Justify
 
-print('hello'.rjust(50))
+print('hello'.rjust(50 , '*'))
 
-print('Hello'.ljust(45) + 'hello')
+print('Hello'.ljust(45, '-') + 'hello')
+
+# Center()
+
