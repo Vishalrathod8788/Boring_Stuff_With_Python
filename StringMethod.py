@@ -6,9 +6,11 @@
 
 # print(demo.lower())
 
-# spam = 'HELLO WORLD !'
+spam = 'HELLO WORLD !'
 # demo = 'hello world...!' 
 # print(demo.islower()) 
 # print(spam.isupper())
 
+print('Hello'.upper().isupper())
 
+isalpha()
