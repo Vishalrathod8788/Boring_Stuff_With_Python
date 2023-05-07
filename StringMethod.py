@@ -55,4 +55,7 @@ print('hello'.rjust(50 , '*'))
 print('Hello'.ljust(45, '-') + 'hello')
 
 # Center()
+name = input()
+print('Helllo'.center(40))
 
+print(name.center(50, '='))
