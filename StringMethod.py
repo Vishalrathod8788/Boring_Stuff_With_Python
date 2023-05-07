@@ -15,3 +15,5 @@ print('Hello'.upper().isupper())
 
 isalpha()
 isalnum()
+istitle()
+isspace()
