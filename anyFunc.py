@@ -3,3 +3,6 @@ nums = [1, 2, 3, 4, 5, -42, 6, 7, 8]
 
 # Inefficinet way 🤔 - Using a for loop and a flag ❌
 contains_neg = False # flag
+for num in nums:
+    if num < 0:
+        contains_neg = True
