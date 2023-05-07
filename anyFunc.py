@@ -13,3 +13,5 @@ contains_neg = any(num < 0 for num in nums) # True
 
 # Bonus Tip 💡: Python also has a built-in "all" function ✅
 contains_neg = not all(num >= 0 for num in nums) # True
+
+print(contains_neg)
