@@ -41,4 +41,9 @@ spam = ['Cat', 'Dog', 'Monkey', 'Cow', 'Buffelo']
 # print(','.join(spam))
 demo = '\n\t'.join(spam)
 
-print(demo)
+# print(demo)
+
+# split()
+
+# print('My name is Vishal Rathod'.split(' '))
+
