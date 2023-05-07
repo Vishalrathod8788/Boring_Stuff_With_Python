@@ -72,3 +72,7 @@ print(spam)
 print(spam.strip())
 
 print('         Vishal           '.strip())
+
+
+
+print('         Vishal           '.rstrip())
