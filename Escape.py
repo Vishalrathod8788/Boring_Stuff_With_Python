@@ -6,7 +6,7 @@
 
 # print('How are You\\?')
 
-spam = """DThe Project Gutenberg EBook of Romeo and Juliet, by William Shakespeare
+spam = """The Project Gutenberg EBook of Romeo and Juliet, by William Shakespeare
 
 This eBook is for the use of anyone anywhere at no cost and with
 almost no restrictions whatsoever.  You may copy it, give it away or
@@ -4860,4 +4860,6 @@ including how to make donations to the Project Gutenberg Literary
 Archive Foundation, how to help produce our new eBooks, and how to
 subscribe to our email newsletter to hear about new eBooks."""
 
-print(spam)  
+# spam[0]
+
+print(spam[0])  
