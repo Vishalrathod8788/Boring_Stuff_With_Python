@@ -19,3 +19,9 @@ V = 'Two'
 for i in range(len(L)) :
     if V == L[i] :
         print(f'{V} is Contains in the List')
+    
+
+# Pythonic version 🐍: Use "if x in L" ✅
+
+if V in L :
+    print(f'{V} is Contains in the List')
