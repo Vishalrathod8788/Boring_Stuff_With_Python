@@ -30,11 +30,12 @@
 # startwith()
 # endwith()
 
-# print('Hello...'.startswith('H'))
+print('Hello...'.startswith('H'))
 
-# print('How are you...'.endswith('.'))
+print('How are you...'.endswith('.'))
 
 # join()
+
 # Convert Array into String
 spam = ['Cat', 'Dog', 'Monkey', 'Cow', 'Buffelo']
 
