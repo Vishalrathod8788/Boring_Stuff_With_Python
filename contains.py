@@ -16,3 +16,6 @@ L = ['One', 'Two', 'Three', 'Four', 'Five']
 
 V = 'Two'
 
+for i in range(len(L)) :
+    if V == L[i] :
+        print(f'{V} is Contains in the List')
