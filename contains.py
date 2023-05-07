@@ -14,3 +14,5 @@ else:
 
 L = ['One', 'Two', 'Three', 'Four', 'Five']
 
+V = 'Two'
+
