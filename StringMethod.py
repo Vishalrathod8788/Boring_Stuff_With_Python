@@ -47,3 +47,6 @@ demo = '\n\t'.join(spam)
 
 # print('My name is Vishal Rathod'.split(' '))
 
+# ijust()
+# rjust()
+
