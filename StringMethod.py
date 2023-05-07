@@ -14,3 +14,4 @@ spam = 'HELLO WORLD !'
 print('Hello'.upper().isupper())
 
 isalpha()
+isalnum()
