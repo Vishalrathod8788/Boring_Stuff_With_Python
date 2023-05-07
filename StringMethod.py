@@ -47,6 +47,9 @@ demo = '\n\t'.join(spam)
 
 # print('My name is Vishal Rathod'.split(' '))
 
-# ijust()
+# ljust()
 # rjust()
 
+print('hello'.rjust(50))
+
+print('Hello'.ljust(45) + 'hello')
