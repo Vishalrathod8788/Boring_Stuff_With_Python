@@ -26,3 +26,4 @@ print('Hello Friends How Are You...?'.istitle())
 print('hello world'.title())
 print('Hello World'[5].isspace())
 print('13456'.isdecimal())
+
