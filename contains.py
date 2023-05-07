@@ -11,3 +11,6 @@ else:
 
 # OK version 🤔 - For loop and a equality check ❌
 
+
+L = ['One', 'Two', 'Three', 'Four', 'Five']
+
