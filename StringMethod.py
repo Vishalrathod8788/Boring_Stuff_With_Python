@@ -1,12 +1,14 @@
-spam = 'Hello Friends'
+# spam = 'Hello Friends'
 
-print(spam.upper())
+# print(spam.upper())
 
-demo = 'HELLO FRIENDS'
+# demo = 'HELLO FRIENDS'
 
-print(demo.lower())
+# print(demo.lower())
 
-spam = 'HELLO WORLD !'
-demo = 'hello world...!' 
-print(demo.islower()) 
-print(spam.isupper())
+# spam = 'HELLO WORLD !'
+# demo = 'hello world...!' 
+# print(demo.islower()) 
+# print(spam.isupper())
+
+
