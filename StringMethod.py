@@ -6,7 +6,7 @@
 
 # print(demo.lower())
 
-spam = 'hello world !'
+spam = 'HELLO WORLD !'
 
 
-print(spam.islower())
+print(spam.isupper())
