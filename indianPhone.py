@@ -13,3 +13,5 @@ def indianPhone(num) :
     return True
 
 message = 'Call me +911234567890 tomorrow, or at +916353008705 for my office Line.'
+
+foundNumber = False
