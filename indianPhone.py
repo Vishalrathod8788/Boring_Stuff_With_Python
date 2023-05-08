@@ -12,7 +12,7 @@ def indianPhone(num) :
             return False
     return True
 
-message = 'Call me +911234567890 tomorrow, or at +916353008705 for my office Line.'
+message = 'Call me +916353008705 tomorrow, or at +911234567890 for my office Line.'
 
 foundNumber = False
 
