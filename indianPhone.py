@@ -11,5 +11,3 @@ def indianPhone(num) :
         if not num[i].isdecimal() :
             return False
     return True
-print(indianPhone('+916353008705'))
-  
