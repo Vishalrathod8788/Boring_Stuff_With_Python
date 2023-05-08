@@ -21,4 +21,15 @@ def isPhoneNumber(text) :
     
     return True
 
-print(isPhoneNumber('415-555-1234'))
+message = 'Call me 415-555-1011 tomorrow, or at 405-555-9999 or my office Line.'
+
+foundNumber = False
+
+for i in range(len(message)) :
+    chunk = message[i:i+12]
+    if isPhoneNumber(chunk) :
+        print('Phone number found: ' + chunk)
+        foundNumber = True
+
+if not foundNumber : 
+    print('Could not find any phone numbers.')
