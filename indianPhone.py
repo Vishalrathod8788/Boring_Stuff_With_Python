@@ -21,3 +21,7 @@ for i in range(len(message)) :
     if indianPhone(chunk) :
         print('Phone number found: ' + chunk)
         foundNumber = True
+
+if not foundNumber : 
+    print('Could not find any phone numbers.')
+
