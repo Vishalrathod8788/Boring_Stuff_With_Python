@@ -15,3 +15,6 @@ def indianPhone(num) :
 message = 'Call me +911234567890 tomorrow, or at +916353008705 for my office Line.'
 
 foundNumber = False
+
+for i in range(len(message)) :
+    chunk = message[i:i+13]
