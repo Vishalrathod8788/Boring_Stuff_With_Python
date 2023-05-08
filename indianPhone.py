@@ -24,4 +24,3 @@ for i in range(len(message)) :
 
 if not foundNumber : 
     print('Could not find any phone numbers.')
-
