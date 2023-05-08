@@ -18,3 +18,6 @@ foundNumber = False
 
 for i in range(len(message)) :
     chunk = message[i:i+13]
+    if indianPhone(chunk) :
+        print('Phone number found: ' + chunk)
+        foundNumber = True
