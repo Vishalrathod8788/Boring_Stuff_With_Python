@@ -51,15 +51,15 @@
 # print(42 not in ['42', 'Hello', 'How Are You'])
 # print(list('Hello'))
 
-# name = 'Zophie a cat'
+name = 'Zophie a cat'
 
-# print(name[7])
+print(name[7])
 
-# name[7] = 'Vishal'
+name[7] = 'Vishal'
 
-# newName = name[0:7] + 'The' + name[8 : 12]
+newName = name[0:7] + 'The' + name[8 : 12]
 
-# print(newName)
+print(newName)
 
 spam = [1,2,3,4,5,6,7]
 
