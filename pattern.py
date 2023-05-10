@@ -40,6 +40,9 @@ import re
 
 # print(mo.group())
 
-haRegEx = re.compile(r'(Ha){3}') # (Ha){3} That Meance HaHaHa
+# haRegEx = re.compile(r'(Ha){3}') # (Ha){3} That Meance HaHaHa
 
-mo = haRegEx.search('He said "HaHaHa"')
+# mo = haRegEx.search('He said "HaHaHa"')
+
+phoneRegEx = re.compile(r'(\d\d\d-)?\d\d\d-\d\d\d\d')
+
