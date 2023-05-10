@@ -39,3 +39,7 @@ regEx = re.compile(r'\+\*\?')
 mo = regEx.search('i learn about +*?+*?+*?+*? regEx Syntax')
 
 print(mo.group())
+
+haRegEx = re.compile(fr'(Ha){3}')
+
+haRegEx.search('He said "HaHaHa"')
