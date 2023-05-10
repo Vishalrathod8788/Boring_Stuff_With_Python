@@ -42,8 +42,20 @@ import re
 
 haRegEx = re.compile(r'(Ha){3}') # (Ha){3} That Meance HaHaHa
 
-print(haRegEx.search('He said "HaHaHa"'))
+mo = haRegEx.search('He said "HaHaHa"')
+
+def test_haRegEx(self):
+    haRegEx = re.compile(r'(Ha){3}')
 
 
 
+    mo = haRegEx.search('He said "HaHaHa"')
+    self.assertEqual(mo.group(), 'HaHaHa')
+    self.assertEqual(mo.group(1), 'Ha')
+    self.assertEqual(mo.group(2), 'Ha')
+    self.assertEqual(mo.group(3), 'Ha')
 
+    self.assertEqual(mo.group(0), 'HaHaHa')
+    self.assertEqual(mo.group(4), None)
+    self.assertEqual(mo.group(5), None)
+    self.assertEqual(mo.group(6), None)
