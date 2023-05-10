@@ -20,3 +20,7 @@ import re
 
 # print(demo.group()) 
 
+
+# * charecter meance (Zero or More )
+
+# + charecter meance (One or More)
