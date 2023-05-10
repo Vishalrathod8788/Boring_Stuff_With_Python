@@ -6,8 +6,6 @@ import re
 
 # mo = print(batRegex.search('The Adavtures of Batman'))
 
-
-
 # print(mo.group())
 
 # mo = batRegex.search('The Adavtures of Bataman')
