@@ -50,3 +50,14 @@ phoneRegEx = re.compile(r'((\d\d\d-)?\d\d\d-\d\d\d\d(,)?){3}')
 mo = phoneRegEx.search('My number is are 415-555-1345,254-123-4567,456-123-1234')
 
 print(mo.group())
+
+# {x.y} (at least x, at most y)
+
+haRegex = re.compile(r'(Ha){3,5}')
+
+print(haRegex.search('He said HaHaHa'))
+
+print(haRegex.search('He said HaHaHaHa'))
+
+print(haRegex.search('He said HaHaHaHaHa'))
+
