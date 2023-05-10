@@ -2,9 +2,10 @@ import re
 
 # String Search....
 
-batRegex = re.compile(r'Bat(wo)?man')
+# batRegex = re.compile(r'Bat(wo)?man')
 
-print(batRegex.search('The Adavtures of Batman'))
+# mo = print(batRegex.search('The Adavtures of Batman'))
+
 # print(mo.group())
 
 # mo = batRegex.search('The Adavtures of Bataman')
@@ -18,3 +19,4 @@ print(batRegex.search('The Adavtures of Batman'))
 # demo = phoneRegex.search('Hello, My name is vishal rathod my phone number is 415-555-1234')
 
 # print(demo.group()) 
+
