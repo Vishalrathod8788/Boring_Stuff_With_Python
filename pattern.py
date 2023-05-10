@@ -26,20 +26,24 @@ import re
 
 # + charecter meance (One or More time)
 
-batRegex = re.compile(r'Bat(wo)+man')
+# batRegex = re.compile(r'Bat(wo)+man')
 
-mo = batRegex.search('The Adavtures of Batwowowoman')
+# mo = batRegex.search('The Adavtures of Batwowowoman')
 
-print(mo.group()) 
+# print(mo.group()) 
 
-# * charecter meance (Zero or More time)
+# # * charecter meance (Zero or More time)
 
-regEx = re.compile(r'\+\*\?')
+# regEx = re.compile(r'\+\*\?')
 
-mo = regEx.search('i learn about +*?+*?+*?+*? regEx Syntax')
+# mo = regEx.search('i learn about +*?+*?+*?+*? regEx Syntax')
 
-print(mo.group())
+# print(mo.group())
 
-haRegEx = re.compile(fr'(Ha){3}')
+haRegEx = re.compile(r'(Ha){3}') # (Ha){3} That Meance HaHaHa
 
-haRegEx.search('He said "HaHaHa"')
+print(haRegEx.search('He said "HaHaHa"'))
+
+
+
+
