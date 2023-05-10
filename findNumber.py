@@ -1,9 +1,9 @@
 import re
 
-message = 'Call me 415-555-1011 tomorrow, or at 405-555-9999 or my office Line.'
+# message = 
 
 phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
 
-mo = phoneNumRegex.search(message)
+mo = phoneNumRegex.findall('Call me 415-555-1011 tomorrow, or at 405-555-9999 or my office Line.')
 
-print(mo.group())
+print(mo)
