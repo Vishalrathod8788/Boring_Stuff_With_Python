@@ -6,6 +6,8 @@ import re
 
 # mo = print(batRegex.search('The Adavtures of Batman'))
 
+
+
 # print(mo.group())
 
 # mo = batRegex.search('The Adavtures of Bataman')
@@ -25,3 +27,4 @@ import re
 
 # + charecter meance (One or More)
 
+batRefex = re.compile(r'Bat(wo)+man')
