@@ -24,7 +24,7 @@ import re
 
 
 
-# + charecter meance (One or More)
+# + charecter meance (One or More time)
 
 batRegex = re.compile(r'Bat(wo)+man')
 
@@ -32,4 +32,10 @@ mo = batRegex.search('The Adavtures of Batwowowoman')
 
 print(mo.group()) 
 
-# * charecter meance (Zero or More )
+# * charecter meance (Zero or More time)
+
+regEx = re.compile(r'\+\*\?')
+
+mo = regEx.search('i learn about +*?+*?+*?+*? regEx Syntax')
+
+print(mo.group())
