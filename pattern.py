@@ -1,6 +1,6 @@
 import re
 
-# String Search....
+# ' ? ' charecter Regular expression
 
 # batRegex = re.compile(r'Bat(wo)?man')
 
@@ -25,4 +25,8 @@ import re
 
 # + charecter meance (One or More)
 
-batRefex = re.compile(r'Bat(wo)+man')
+batRegex = re.compile(r'Bat(wo)+man')
+
+mo = print(batRegex.search('The Adavtures of Batwoman'))
+
+print(batRegex.search('The Adavtures of Batwowowoman'))
