@@ -2,9 +2,9 @@ import re
 
 # String Search....
 
-# batRegex = re.compile(r'Bat(wo)?man')
+batRegex = re.compile(r'Bat(wo)?man')
 
-# mo = batRegex.search('The Adavtures of Batman')
+print(batRegex.search('The Adavtures of Batman'))
 # print(mo.group())
 
 # mo = batRegex.search('The Adavtures of Bataman')
