@@ -44,5 +44,7 @@ import re
 
 # mo = haRegEx.search('He said "HaHaHa"')
 
-phoneRegEx = re.compile(r'(\d\d\d-)?\d\d\d-\d\d\d\d')
+phoneRegEx = re.compile(r'((\d\d\d-)?\d\d\d-\d\d\d\d(,)?) {3})')
+mo = phoneRegEx.search('My number is are 415-555-1345 , 254-123-4567 and 456-123-1234')
 
+print(mo)
