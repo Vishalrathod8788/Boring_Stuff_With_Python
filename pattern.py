@@ -2,9 +2,11 @@ import re
 
 # ' ? ' charecter Regular expression
 
-# batRegex = re.compile(r'Bat(wo)?man')
+# batRegex = re.compile(r'Bat(wo)+man')
 
 # mo = print(batRegex.search('The Adavtures of Batman'))
+
+# mo = batRegex.search('The Adavtures of Batwowowoman')       // This Error Resolve in + charecter  regular expretion throw
 
 # print(mo.group())
 
@@ -21,7 +23,6 @@ import re
 # print(demo.group()) 
 
 
-# * charecter meance (Zero or More )
 
 # + charecter meance (One or More)
 
@@ -29,4 +30,6 @@ batRegex = re.compile(r'Bat(wo)+man')
 
 mo = batRegex.search('The Adavtures of Batwowowoman')
 
-print(mo.group())
+print(mo.group()) 
+
+# * charecter meance (Zero or More )
