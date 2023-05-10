@@ -6,6 +6,4 @@ phoneNumRegex.search('My Number is 451-555-1245')
 
 match = phoneNumRegex.search('My Number is 451-555-1245')
 
-
-
-print(match.group())
+print(match.group()) 
