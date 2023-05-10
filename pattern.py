@@ -29,4 +29,6 @@ batRegex = re.compile(r'Bat(wo)+man')
 
 mo = print(batRegex.search('The Adavtures of Batwoman'))
 
-print(batRegex.search('The Adavtures of Batwowowoman'))
+mo = print(batRegex.search('The Adavtures of Batwowowoman'))
+
+print()
