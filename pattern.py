@@ -14,4 +14,3 @@ phoneRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
 phoneRegex.search('Hello, My name is vishal rathod my phone number is 415-555-1234')
 
 demo = phoneRegex.search('Hello, My name is vishal rathod my phone number is 415-555-1234')
-
