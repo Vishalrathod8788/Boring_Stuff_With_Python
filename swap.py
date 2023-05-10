@@ -19,4 +19,3 @@ b = temp
 
 print(a)
 print(b)
-
