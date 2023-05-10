@@ -6,10 +6,8 @@ b = 200
 
 c = 0 
 
-a = c 
-
-b = c 
-
+a = b
+b = c
 c = a
 
 # a = 100
@@ -20,4 +18,4 @@ c = a
 
 print(a)
 print(b)
-print(c)
+
