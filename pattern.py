@@ -53,14 +53,18 @@ print(mo.group())
 
 # {x.y} (at least x, at most y)
 
-haRegex = re.compile(r'(Ha){3,5}')
+# haRegex = re.compile(r'(Ha){3,5}')
 
-print(haRegex.search('He said HaHaHa'))
+# print(haRegex.search('He said HaHaHa'))
 
-print(haRegex.search('He said HaHaHaHa'))
+# print(haRegex.search('He said HaHaHaHa'))
 
-print(haRegex.search('He said HaHaHaHaHa'))
+# print(haRegex.search('He said HaHaHaHaHa'))
 
-print(haRegex.search('He said HaHaHaHaHaHa'))
+# print(haRegex.search('He said HaHaHaHaHaHa'))
 
-print(haRegex.search('He said HaHaHaHaHaHaHa'))
+# print(haRegex.search('He said HaHaHaHaHaHaHa'))
+
+haRegex = re.compile(r'(\d){3,5}')
+
+haRegex.search('12345678910')
