@@ -12,3 +12,5 @@ digitRegex = re.compile(r'\d\s\w')
 
 print(digitRegex.findall('Hell0 Word12 34'))
 
+vowelRegex = re.compile(r'[aeiou]') # that meance r'(a|e|i|o|u)'
+
