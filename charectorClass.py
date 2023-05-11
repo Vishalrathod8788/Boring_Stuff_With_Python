@@ -18,6 +18,12 @@ vowelRegex = re.compile(r'[aeiouAEIOU]') # that meance r'(a|e|i|o|u)'
 
 print(vowelRegex.findall('Robocop eats Baby Food.'))
 
-doublevowelRegex = re.compile(fr'[aeiouAEIOU] {2}') # that meance r'(a|e|i|o|u)'
+doublevowelRegex = re.compile(r'[aeiouAEIOU]{2}')
+
+print(doublevowelRegex.findall('Robocop eats Baby Food.'))
+
+# Negative Charecter Classes 
+
+vowelRegex = re.compile(r'[^aeiouAEIOU]') # ' ^ ' that meance Not in String Content is Display
 
 print(vowelRegex.findall('Robocop eats Baby Food.'))
