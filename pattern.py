@@ -1,6 +1,6 @@
 import re
 
-# ' ? ' charecter Regular expression
+# ' ? ' charecter Regular expression that meance (Zero or One time)
 
 # batRegex = re.compile(r'Bat(wo)+man')
 
@@ -53,7 +53,7 @@ print(mo.group())
 
 # {x.y} (at least x, at most y)
 
-# haRegex = re.compile(r'(Ha){3,5}')
+# haRegex = re.compile(r'(Ha){3,5}')  # That meance {3,5} is String content Length 3 is min Length and 5 is Max Length 
 
 # print(haRegex.search('He said HaHaHa'))
 
@@ -65,6 +65,8 @@ print(mo.group())
 
 # print(haRegex.search('He said HaHaHaHaHaHaHa'))
 
-haRegex = re.compile(r'(\d){3,5}')
+haRegex = re.compile(r'(\d){3,5}?') # ? is represent min Length
 
-haRegex.search('12345678910')
+print(haRegex.search('12345678910'))
+
+
