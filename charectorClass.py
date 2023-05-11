@@ -17,3 +17,7 @@ vowelRegex = re.compile(r'[a-fA-F]') # that meance find small a to f or capital 
 vowelRegex = re.compile(r'[aeiouAEIOU]') # that meance r'(a|e|i|o|u)'
 
 print(vowelRegex.findall('Robocop eats Baby Food.'))
+
+doublevowelRegex = re.compile(fr'[aeiouAEIOU] {2}') # that meance r'(a|e|i|o|u)'
+
+print(vowelRegex.findall('Robocop eats Baby Food.'))
