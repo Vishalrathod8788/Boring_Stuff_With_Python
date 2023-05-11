@@ -8,5 +8,7 @@ import re
     # \s Any space, tab, or newline charecter.
     # \S Any character that is not a space, tab, or newline.
 
-digitRegex = re.compile(r'\d')
+digitRegex = re.compile(r'\d\s\w')
+
+print(digitRegex.findall('Hell0 Word12 34'))
 
