@@ -31,4 +31,3 @@ print(doublevowelRegex.findall('Robocop eats Baby Food.'))
 vowelRegex = re.compile(r'[^aeiouAEIOU]') # ' ^ ' that meance Not in String Content is Display
 
 print(vowelRegex.findall('Robocop eats Baby Food.'))
-
