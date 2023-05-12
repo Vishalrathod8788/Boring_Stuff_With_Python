@@ -26,10 +26,16 @@ emailRegex = re.compile(r'''
 @               # @ symbol
 [a-zA-Z_.+]+    # domain name part
 
-''', re.VERBOSE)
+''', re.VERBOSE) 
 
-# TODO : Get the text off the clipboard
+# Get the text off the clipboard
+text = pyperclip.paste()
 
-# TODO : Extract the email/phone numbers from this text
+# Extract the email/phone numbers from this text
+extractPhone = phoneRegex.findall(text)
+extractEmail = emailRegex.findall(text)
+
+print(extractPhone)
+print(extractEmail)
 
 # TODO : Copy the extracted email/phone to the clipboard 
