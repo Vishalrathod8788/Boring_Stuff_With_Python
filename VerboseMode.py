@@ -6,9 +6,9 @@ re.compile(r'''
 \d\d\d      # Phone Area Code
 -           # first dash
 \d\d\d      # fist 3 digit
--
-\d\d\d\d''', re.VERBOSE)
+-           # secound dash
+\d\d\d\d''',# secound dash
 
-
+re.VERBOSE)
 
 
