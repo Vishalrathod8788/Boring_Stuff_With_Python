@@ -21,4 +21,8 @@ print(allDigitsRegex.search('12361826386x836823684'))
 
 # anything except newline
 
- 
+atRegex = re.compile(r'.at')
+print(atRegex.findall('The cat in the hat sat on the flat mat.'))
+
+nameRegex = re.compile(r'First Name: (.*) Last Name: (.*)')
+
