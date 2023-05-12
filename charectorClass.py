@@ -18,7 +18,7 @@ print(digitRegex.findall('Hell0 Word12 34'))
 
 vowelRegex = re.compile(r'[a-fA-F]') # that meance find small a to f or capital A to F
 
-vowelRegex = re.compile(r'[aeiouAEIOU]') # that meance r'(a|e|i|o|u)'
+# vowelRegex = re.compile(r'[aeiouAEIOU]') # that meance r'(a|e|i|o|u)'
 
 print(vowelRegex.findall('Robocop eats Baby Food.'))
 
