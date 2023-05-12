@@ -12,7 +12,7 @@ phoneRegex = re.compile(r'''
 \d\d\d                      # first 3 digits
 -                           # seprator
 \d\d\d\d                    # last 4 digits
-(((ext(\.)?\s) | x)         # extension word-part (optional)
+(((ext(\.)?\s)|x)         # extension word-part (optional)
 (\d{2,5}))? 
 )                # extension word-number (optional)
 ''', re.VERBOSE )
@@ -24,16 +24,14 @@ phoneRegex = re.compile(r'''
 # some.+_thing@(\d{2,5})?.com
 
 emailRegex = re.compile(r'''
-[a-zA-Z_.+]+    # name part
+[a-zA-Z0-9_.+]+    # name part
 @               # @ symbol
-[a-zA-Z_.+]+    # domain name part
+[a-zA-Z0-9_.+]+    # domain name part
 
-''', re.VERBOSE) 
+''', re.VERBOSE)
 
 # Get the text off the clipboard
-text = '''
-Dr.Barbara Jones x107 870-864-7190 brjones@southark.edu
-'''
+text = 'Dr.Barbara Jones x107 870-864-7190 brjones@southark.edu'
 
 # Extract the email/phone numbers from this text
 extractPhone = phoneRegex.findall(text)
@@ -43,9 +41,9 @@ allPhoneNumbers = []
 
 for phoneNumber in extractPhone:
     allPhoneNumbers.append(phoneNumber[0])
-    
 
-print(extractPhone) 
+
+print(allPhoneNumbers) 
 print(extractEmail)
 
 # TODO : Copy the extracted email/phone to the clipboard 
