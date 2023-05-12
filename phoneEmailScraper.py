@@ -17,13 +17,14 @@ phoneRegex = re.compile(r'''
 
 # re.compile(r'((\d\d\d) | (\(\d\d\d)))?(\s|-)\d\d\d-\d\d\d\d(((ext(\.)?\s) | x)(\d{2,5}))?')
 
-# TODO : Create a regex for email address 
+# Create a regex for email address 
 
 # some.+_thing@(\d{2,5})?.com
 
-
-
 emailRegex = re.compile(r'''
+[a-zA-Z_.+]+    # name part
+@               # @ symbol
+[a-zA-Z_.+]+    # domain name part
 
 ''', re.VERBOSE)
 
