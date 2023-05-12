@@ -17,3 +17,5 @@ re.compile(r'''
 ((\d\d\d) | (\(\d\d\d)))?        # area code (optional)
 \s|-        # first seprator 
 \d\d\d        # first 3 digits
+-        # seprator
+\d\d\d\d        # last 4 digits
