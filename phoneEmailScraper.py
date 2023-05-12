@@ -1,8 +1,6 @@
 #! python3
 
-# TODO : Create a regex for phone numbers
-
-
+# Create a regex for phone numbers
 
 import re, pyperclip
 
@@ -16,6 +14,7 @@ re.compile(r'''
 (((ext(\.)?\s) | x)    # extension word-part (optional)
 (\d{2,5}))?       # extension word-number (optional)
 ''', re.VERBOSE )
+
 
 re.compile(r'((\d\d\d) | (\(\d\d\d)))?(\s|-)\d\d\d-\d\d\d\d(((ext(\.)?\s) | x)(\d{2,5}))?')
 
