@@ -8,6 +8,10 @@ import re
     # \s Any space, tab, or newline charecter.
     # \S Any character that is not a space, tab, or newline.
 
+    # + charecter meance (One or More time)
+    # ' ? ' charecter Regular expression that meance (Zero or One time)
+    # * charecter meance (Zero or More time)
+
 digitRegex = re.compile(r'\d\s\w')
 
 print(digitRegex.findall('Hell0 Word12 34'))
