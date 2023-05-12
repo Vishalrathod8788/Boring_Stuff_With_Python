@@ -8,3 +8,10 @@
 
 # TODO : Extract the email/phone numbers from this text
 
+# TODO : Copy the extracted email/phone to the clipboard 
+
+import re, pyperclip
+
+re.compile(r''' 
+
+''', re.VERBOSE )
