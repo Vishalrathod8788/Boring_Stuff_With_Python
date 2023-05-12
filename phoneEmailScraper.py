@@ -19,3 +19,6 @@ re.compile(r'''
 \d\d\d        # first 3 digits
 -        # seprator
 \d\d\d\d        # last 4 digits
+ext(\.)?\s(\d{2,5})        # extension (optional)
+
+''', re.VERBOSE )
