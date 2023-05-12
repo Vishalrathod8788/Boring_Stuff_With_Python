@@ -4,7 +4,6 @@
 
 import re
 
-
 phoneRegex = re.compile(r'''  
 # 415-555-1234, 555-0000, (415) 555-0000, 555-0000 ext 12345, ext. 12345, x12345
 ((\d\d\d) | (\(\d\d\d)))?   # area code (optional)
@@ -30,7 +29,9 @@ emailRegex = re.compile(r'''
 ''', re.VERBOSE) 
 
 # Get the text off the clipboard
-text = ''
+text = '''
+Dr.Barbara Jones x107 870-864-7190 brjones@southark.edu
+'''
 
 # Extract the email/phone numbers from this text
 extractPhone = phoneRegex.findall(text)
