@@ -30,7 +30,6 @@ emailRegex = re.compile(r'''
 
 ''', re.VERBOSE)
 
-
 # Get the text off the clipboard
 text = 'Dr.Barbara Jones x107 870-864-7190 brjones@southark.edu'
 
