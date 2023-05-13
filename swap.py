@@ -10,7 +10,6 @@ a = b
 
 b = temp
 
-
 # Pythonic way 🐍 - Use a Swap Variable Value ✅
 
 # a = 100
