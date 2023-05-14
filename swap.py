@@ -14,6 +14,9 @@ b = temp
 
 a = 100
 
+b = 200
+
+
 # Pythonic way 🐍 - Use a Swap Variable Value ✅
 
 # a = 100
