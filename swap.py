@@ -12,12 +12,19 @@ b = temp
 
 # Swap Variable Value
 
-a = 100
+a = 200
 
-b = 200
+b = 100
+
+a = a + b
+
+b = a - b
 
 a = a - b
 
+print(a)
+
+print(b)
 # Pythonic way 🐍 - Use a Swap Variable Value ✅
 
 # a = 100
@@ -26,6 +33,6 @@ a = a - b
 
 # a, b = b, a
 
-print(a)
+# print(a)
 
-print(b)
+# print(b)
