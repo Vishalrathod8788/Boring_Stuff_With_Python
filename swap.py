@@ -16,6 +16,7 @@ a = 100
 
 b = 200
 
+a = a - b
 
 # Pythonic way 🐍 - Use a Swap Variable Value ✅
 
