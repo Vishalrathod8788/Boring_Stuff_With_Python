@@ -1,6 +1,6 @@
 # import os
 
-# Read mode
+# ---Read mode
 
 # helloFile = open('/home/vishal/Boring_Stuff_With_Python/Hello.txt')
 # print(helloFile.read())
@@ -12,11 +12,26 @@
 # print(content)
 # helloFile.close()
 
-# Write mode 
+# ---Write mode 
 
-helloFile = open('/home/vishal/Boring_Stuff_With_Python/Hyy.txt', 'w')
-print(helloFile.write('Hello Vishal\n'))
-print(helloFile.write('Hello Vishal\n'))
-print(helloFile.write('Hello Vishal\n'))
-print(helloFile.write('Hello Vishal\n'))
-helloFile.close()
+# helloFile = open('/home/vishal/Boring_Stuff_With_Python/Hyy.txt', 'w')
+# print(helloFile.write('Hello Vishal\n'))
+# print(helloFile.write('Hello Vishal\n'))
+# print(helloFile.write('Hello Vishal\n'))
+# print(helloFile.write('Hello Vishal\n'))
+# helloFile.close()
+
+import shelve
+
+shelfFile = shelve.open('mydata')
+
+shelfFile['cat'] = ['Zophile', 'Pooka', 'Simon', 'Fat-tail', 'Cleo']
+
+shelfFile.close()
+
+shelfFile = shelve.open('mydata')
+
+print(shelfFile['cat'])
+
+shelfFile['dog'] = ['Name', 'Age', 'Birthdate', 'Color', 'Height', 'Wight']
+
