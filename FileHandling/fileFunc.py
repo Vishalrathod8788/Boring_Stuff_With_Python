@@ -28,6 +28,8 @@ print(os.path.isfile('/home/vishal/Boring_Stuff_With_Python/elif.py'))
 
 print(os.path.isfile('/home/vishal/Boring_Stuff_With_Python/Any.py'))
 
-print(os.path.getsize())
+print(os.path.getsize('/home/vishal/Boring_Stuff_With_Python/elif.py'))
 
-print(os.path.listdir())
+print(os.listdir('/home/vishal/Boring_Stuff_With_Python/'))
+
+
