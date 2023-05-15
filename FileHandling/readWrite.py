@@ -1,3 +1,6 @@
 # import os
 
-open('/home/vishal/Boring_Stuff_With_Python/hello.txt')
+# read mode
+
+helloFile = open('/home/vishal/Boring_Stuff_With_Python/Hello.txt')
+print(helloFile.read())
