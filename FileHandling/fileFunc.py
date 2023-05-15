@@ -43,6 +43,5 @@ for filename in os.listdir('/home/vishal/Boring_Stuff_With_Python/'):
 
 print(totalSize)
 
-
 print(os.makedirs('/home/vishal/Boring_Stuff_With_Python/Demo123'))
 
