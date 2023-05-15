@@ -36,3 +36,9 @@ print(os.listdir('/home/vishal/Boring_Stuff_With_Python/'))
 
 totalSize = 0
 
+for filename in os.listdir('/home/vishal/Boring_Stuff_With_Python/'):
+    if not os.path.isfile(os.path.join('/home/vishal/Boring_Stuff_With_Python/', filename)) :
+        continue
+    totalSize = totalSize + os.path.getsize(os.path.join('/home/vishal/Boring_Stuff_With_Python/', filename))
+
+
