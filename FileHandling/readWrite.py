@@ -23,6 +23,8 @@
 
 import shelve
 
+# ---Shelve
+
 shelfFile = shelve.open('mydata')
 
 shelfFile['cat'] = ['Zophile', 'Pooka', 'Simon', 'Fat-tail', 'Cleo']
@@ -34,4 +36,8 @@ shelfFile = shelve.open('mydata')
 print(shelfFile['cat'])
 
 shelfFile['dog'] = ['Name', 'Age', 'Birthdate', 'Color', 'Height', 'Wight']
+
+print(shelfFile['dog'])
+
+shelfFile.close()
 
