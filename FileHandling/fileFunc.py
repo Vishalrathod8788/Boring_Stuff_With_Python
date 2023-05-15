@@ -41,4 +41,5 @@ for filename in os.listdir('/home/vishal/Boring_Stuff_With_Python/'):
         continue
     totalSize = totalSize + os.path.getsize(os.path.join('/home/vishal/Boring_Stuff_With_Python/', filename))
 
+print(totalSize)
 
