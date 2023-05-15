@@ -23,7 +23,7 @@ helloFile.close()
 
 import shelve
 
-# ---Shelve       Dictionary-like Shelf value
+# ---Shelve       Dictionary-like Shelf value to Create Binary File  
 
 
 # Cat shelve Demo
