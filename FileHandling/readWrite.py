@@ -33,7 +33,6 @@ print(shelfFile['cat'])
 
 shelfFile.close()
 
-
 shelfFile = shelve.open('Dog')
 
 shelfFile['dog'] = ['Name', 'Age', 'Birthdate', 'Color', 'Height', 'Wight']
