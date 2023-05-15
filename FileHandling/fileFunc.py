@@ -11,3 +11,6 @@ print(os.getcwd())
 print(os.path.abspath('File1.png'))
 
 print(os.path.relpath('File1.png'))
+
+# File Operations
+print(os.path.isfile('/home/vishal/Boring_Stuff_With_Python/fileFunc.py'))
