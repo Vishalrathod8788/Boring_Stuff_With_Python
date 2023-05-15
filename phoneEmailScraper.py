@@ -47,3 +47,5 @@ print(allPhoneNumbers)
 print(extractEmail)
 
 # TODO : Copy the extracted email/phone to the clipboard 
+
+'\n'.join(allPhoneNumbers) + '\n' + '\n'.join(extractEmail)
