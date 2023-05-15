@@ -31,13 +31,21 @@ shelfFile['cat'] = ['Zophile', 'Pooka', 'Simon', 'Fat-tail', 'Cleo']
 
 print(shelfFile['cat'])
 
+print(list(shelfFile.keys()))
+
+print(list(shelfFile.values()))
+
 shelfFile.close()
 
 shelfFile = shelve.open('Dog')
 
+print(shelfFile['dog'])
+
 shelfFile['dog'] = ['Name', 'Age', 'Birthdate', 'Color', 'Height', 'Wight']
 
-print(shelfFile['dog'])
+print(list(shelfFile.keys()))
+
+print(list(shelfFile.values()))
 
 shelfFile.close()
 
