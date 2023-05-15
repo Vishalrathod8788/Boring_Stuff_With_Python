@@ -32,4 +32,7 @@ print(os.path.getsize('/home/vishal/Boring_Stuff_With_Python/elif.py'))
 
 print(os.listdir('/home/vishal/Boring_Stuff_With_Python/'))
 
+# Example Code : Finding the total size of all files in a folder
+
+totalSize = 0
 
