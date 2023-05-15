@@ -25,6 +25,8 @@ import shelve
 
 # ---Shelve       Dictionary-like Shelf value
 
+
+# Cat shelve Demo
 shelfFile = shelve.open('mydata')
 
 shelfFile['cat'] = ['Zophile', 'Pooka', 'Simon', 'Fat-tail', 'Cleo']
@@ -37,6 +39,7 @@ print(list(shelfFile.values()))
 
 shelfFile.close()
 
+# Dog shelve Demo
 shelfFile = shelve.open('Dog')
 
 print(shelfFile['dog'])
