@@ -24,3 +24,5 @@ print(os.path.basename('/home/vishal/Boring_Stuff_With_Python'))
 
 print(os.path.exists('/home/vishal/Boring_Stuff_With_Python/Any.py'))
 
+print(os.path.isfile('/home/vishal/Boring_Stuff_With_Python/elif.py'))
+
