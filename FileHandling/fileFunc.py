@@ -11,3 +11,7 @@ print(os.getcwd())
 print(os.path.abspath('File1.png'))
 
 print(os.path.relpath('File1.png'))
+
+print(os.chdir('/home/vishal/'))
+
+print(os.getcwd())
