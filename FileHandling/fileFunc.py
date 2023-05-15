@@ -15,3 +15,6 @@ print(os.path.relpath('File1.png'))
 print(os.chdir('/home/vishal/'))
 
 print(os.getcwd())
+
+print(os.path.isabs('/Borinf_Stuff_With_Python/'))
+
