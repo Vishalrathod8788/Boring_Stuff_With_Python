@@ -8,4 +8,6 @@ import shutil
 
 # Move File And Directory
 
-print(shutil.move('/home/vishal/Boring_Stuff_With_Python/readWrite.py', '/home/vishal/Boring_Stuff_With_Python/FileHandling/'))
+# print(shutil.move('/home/vishal/Boring_Stuff_With_Python/readWrite.py', '/home/vishal/Boring_Stuff_With_Python/FileHandling/'))
+
+print(shutil.move('/home/vishal/Boring_Stuff_With_Python/FileHandling/readingWriting.py' ,'/home/vishal/Boring_Stuff_With_Python/FileHandling/readWrite.py'))
