@@ -22,3 +22,5 @@ print(os.path.relpath('../home/vishal/', 'FileHandling/fileFunc.py'))
 
 print(os.path.basename('/home/vishal/Boring_Stuff_With_Python'))
 
+print(os.path.exists('/home/vishal/Boring_Stuff_With_Python/Any.py'))
+
