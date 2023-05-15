@@ -5,3 +5,4 @@ print(os.getcwd())
 # print(os.rmdir('/home/vishal/Boring_Stuff_With_Python/spamspamspam/'))
 
 shutil.rmtree('/home/vishal/Boring_Stuff_With_Python/spamspamspam/')
+
