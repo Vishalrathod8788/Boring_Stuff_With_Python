@@ -15,8 +15,8 @@
 # Write mode 
 
 helloFile = open('/home/vishal/Boring_Stuff_With_Python/Hyy.txt', 'w')
-print(helloFile.write('Hello Vishal'))
-print(helloFile.write('Hello Vishal'))
-print(helloFile.write('Hello Vishal'))
-print(helloFile.write('Hello Vishal'))
+print(helloFile.write('Hello Vishal\n'))
+print(helloFile.write('Hello Vishal\n'))
+print(helloFile.write('Hello Vishal\n'))
+print(helloFile.write('Hello Vishal\n'))
 helloFile.close()
