@@ -1,6 +1,7 @@
+import shutil
 import os
-
 print(os.getcwd())
 
-os.rmdir('/home/vishal/Boring_Stuff_With_Python')
+# print(os.rmdir('/home/vishal/Boring_Stuff_With_Python/spamspamspam/'))
 
+shutil.rmtree('/home/vishal/Boring_Stuff_With_Python/spamspamspam/')
