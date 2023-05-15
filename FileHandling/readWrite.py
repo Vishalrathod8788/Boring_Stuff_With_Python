@@ -1,6 +1,6 @@
 # import os
 
-# read mode
+# Read mode
 
 helloFile = open('/home/vishal/Boring_Stuff_With_Python/Hello.txt')
 print(helloFile.read())
@@ -12,3 +12,6 @@ content = helloFile.read()
 print(content)
 helloFile.close()
 
+# Write mode 
+
+helloFile = open('/home/vishal/Boring_Stuff_With_Python/Hello.txt', 'w')
