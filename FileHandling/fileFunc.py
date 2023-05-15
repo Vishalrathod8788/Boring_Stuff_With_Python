@@ -18,3 +18,5 @@ print(os.getcwd())
 
 print(os.path.isabs('/Borinf_Stuff_With_Python/'))
 
+print(os.path.relpath('../home/vishal/', 'FileHandling/fileFunc.py'))
+
