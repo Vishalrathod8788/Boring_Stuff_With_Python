@@ -13,4 +13,4 @@ for filename in os.listdir() :
         print(filename)
         os.unlink(filename)
 
-
+         
