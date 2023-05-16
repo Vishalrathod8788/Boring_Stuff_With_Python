@@ -8,8 +8,8 @@ shutil.rmtree('/home/vishal/Boring_Stuff_With_Python/spamspamspam/')
 
 # Dry Run...
 
-for filename in os.listdir() :
-    if filename.endswith('.py'):
-        print(filename)
+# for filename in os.listdir() :
+#     if filename.endswith('.py'):                      # This code will not Execute 
+#         print(filename)
 
 
