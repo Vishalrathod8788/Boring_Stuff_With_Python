@@ -6,3 +6,9 @@ print(os.getcwd())
 
 shutil.rmtree('/home/vishal/Boring_Stuff_With_Python/spamspamspam/')
 
+# Dry Run...
+
+for filename in os.listdir() :
+
+
+
