@@ -17,11 +17,12 @@ def boxPrint(symbol, width, height) :
         raise Exception("Error: Width and height must be greater than 2.")
 
     print(symbol * width)
+    
     for i in range(height - 2) :
         print(symbol + (' ' * (width - 2)) + symbol)
     
     print(symbol * width)
 
-boxPrint('*', 1, 1) 
-# boxPrint('O', 15, 5)
-# boxPrint('**', 15, 5)
+boxPrint('*', 15, 5) 
+boxPrint('O', 15, 5)
+boxPrint('*', 15, 5)
