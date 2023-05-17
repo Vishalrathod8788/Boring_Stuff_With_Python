@@ -24,8 +24,7 @@ def boxPrint(symbol, width, height) :
     print(symbol * width)
 
 boxPrint('*', 1, 1) 
-boxPrint('O', 15, 5)
-boxPrint('*', 15, 5)
+boxPrint('**', 15, 5)
 
 # ----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -38,4 +37,3 @@ except :
     errorFile.write(traceback.format_exc())
     errorFile.close()
     print('The Traceback info was written error_log.txt')
-    
