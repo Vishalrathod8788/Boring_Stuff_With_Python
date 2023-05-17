@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/vishal/Boring_Stuff_With_Python/Debuging/BoxPrint.py", line 33, in <module>
+    raise Exception('This is the error message.')
+Exception: This is the error message.

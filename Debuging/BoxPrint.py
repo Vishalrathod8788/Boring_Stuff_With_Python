@@ -17,12 +17,22 @@ def boxPrint(symbol, width, height) :
         raise Exception("Error: Width and height must be greater than 2.")
 
     print(symbol * width)
-    
+
     for i in range(height - 2) :
         print(symbol + (' ' * (width - 2)) + symbol)
     
     print(symbol * width)
 
-boxPrint('*', 15, 5) 
+boxPrint('*', 1, 1) 
 boxPrint('O', 15, 5)
 boxPrint('*', 15, 5)
+
+import traceback
+
+try :
+    raise Exception('This is the error message.')
+except :
+    errorFile = open('error_log.txt', 'a')
+    errorFile.write(traceback.format_exc())
+    errorFile.close()
+    print('The Traceback info was written error_log.txt')
