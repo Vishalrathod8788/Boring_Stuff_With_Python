@@ -1,13 +1,14 @@
-market_2nd = {'ns' : 'Green', 'ew' : 'red'}
+market_2nd = {'ns' : 'Green', 'ew' : 'Red'}
 
 def switchLight(intersection) :
 
     for key in intersection.keys() :
         if intersection[key] == 'Green' :
             intersection[key] = 'Yellow'
-        elif intersection[key] == 'red' :
+        elif intersection[key] == 'Red' :
             intersection[key] = 'Green'
-        elif 
+        elif intersection[key] == 'Yellow' :
+            intersection[key] = 'Red'
 
 
 print('Before :' + str(market_2nd))
