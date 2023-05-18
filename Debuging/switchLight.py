@@ -4,9 +4,10 @@ def switchLight(intersection) :
 
     for key in intersection.keys() :
         if intersection[key] == 'Green' :
-            intersection[key] = 'red'
+            intersection[key] = 'Yellow'
         elif intersection[key] == 'red' :
             intersection[key] = 'Green'
+        elif 
 
 
 print('Before :' + str(market_2nd))
