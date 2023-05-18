@@ -9,6 +9,6 @@ def switchLight(intersection) :
             intersection[key] = 'Green'
 
 
-print(market_2nd)
+print('Before :' + str(market_2nd))
 switchLight(market_2nd)
-print(market_2nd)
+print('After :' + str(market_2nd))
