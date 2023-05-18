@@ -6,7 +6,7 @@
 # critical(highest)
 
 # function
-# logging.debug()
+# logging.debug() 
 # logging.info()
 # logging.warning()
 # logging.error()
@@ -15,7 +15,7 @@
 import logging
 
 logging.basicConfig(filename = 'myProgramLog.txt', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
-# logging.disable(logging.CRITICAL)
+# logging.disable(logging.CRITICAL) # This is Debug all level disable
 
 
 logging.debug('Start Of Program')
