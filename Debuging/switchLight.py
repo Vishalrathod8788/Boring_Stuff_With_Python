@@ -10,6 +10,7 @@ def switchLight(intersection) :
         elif intersection[key] == 'Yellow' :
             intersection[key] = 'Red'
 
+    assert 'Red' in 
 
 print('Before :' + str(market_2nd))
 switchLight(market_2nd)
