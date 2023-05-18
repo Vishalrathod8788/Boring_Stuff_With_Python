@@ -5,6 +5,7 @@
 # error
 # critical(highest)
 
+# function
 # logging.debug()
 # logging.info()
 # logging.warning()
@@ -13,8 +14,8 @@
 
 import logging
 
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
-logging.disable(logging.CRITICAL)
+logging.basicConfig(filename = 'myProgramLog.txt', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+# logging.disable(logging.CRITICAL)
 
 
 logging.debug('Start Of Program')
@@ -28,7 +29,7 @@ def factorial(n):
         n+1
         logging.debug('i is (%s)' % (i))
         logging.debug('total is (%s)' %(total))
-
+ 
     logging.debug('Reurn Value (%s)' % (total))
     return total
 
