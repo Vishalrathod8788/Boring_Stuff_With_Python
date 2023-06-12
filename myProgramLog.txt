@@ -10,3 +10,15 @@
 2023-05-18 10:54:33,362 - DEBUG - total is (24)
 2023-05-18 10:54:33,362 - DEBUG - Reurn Value (24)
 2023-05-18 10:54:33,362 - DEBUG - End of program
+2023-06-08 11:16:07,942 - DEBUG - Start Of Program
+2023-06-08 11:16:07,950 - DEBUG - Start of factorial(5)
+2023-06-08 11:16:07,951 - DEBUG - i is (1)
+2023-06-08 11:16:07,951 - DEBUG - total is (1)
+2023-06-08 11:16:07,951 - DEBUG - i is (2)
+2023-06-08 11:16:07,951 - DEBUG - total is (2)
+2023-06-08 11:16:07,951 - DEBUG - i is (3)
+2023-06-08 11:16:07,951 - DEBUG - total is (6)
+2023-06-08 11:16:07,951 - DEBUG - i is (4)
+2023-06-08 11:16:07,951 - DEBUG - total is (24)
+2023-06-08 11:16:07,952 - DEBUG - Reurn Value (24)
+2023-06-08 11:16:07,952 - DEBUG - End of program
