@@ -7,3 +7,4 @@ except :
     errorFile.write(traceback.format_exc())
     errorFile.close()
     print('The Traceback info was written error_log.txt')
+    
