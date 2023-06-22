@@ -1,10 +1,10 @@
 
-# import webbrowser, sys, pyperclip
+import webbrowser, sys, pyperclip
 
-# webbrowser.open('https://vishal.sbs')
+webbrowser.open('https://vishal.sbs')
 
-# sys.argv
+sys.argv
 
-# text = 'Hello'
+text = 'Hello'
 
-# text = pyperclip.copy()
+text = pyperclip.copy()
