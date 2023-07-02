@@ -1,2 +1,4 @@
 
-import webbrowser, sys
+import webbrowser
+ 
+webbrowser.open("https://vishal.sbs")
