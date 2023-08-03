@@ -4,6 +4,6 @@ res = requests.get('https://automatetheboringstuff.com/files/rj.txt')
 
 print(res.status_code)
 
-len(res.text )
+len(res.text)
 
 print(res.text[:250])
