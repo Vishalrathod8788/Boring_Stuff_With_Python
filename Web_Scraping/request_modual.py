@@ -2,6 +2,8 @@ import requests
 
 res = requests.get('https://automatetheboringstuff.com/files/rj.txt')
 
-print(r.status_code)
+print(res.status_code)
 
+len(res.text )
 
+print(res.text[:250])
