@@ -6,4 +6,4 @@ print(res.status_code)
 
 len(res.text)
 
-print(res.text[:250])
+print(res.text[:1000]) 
