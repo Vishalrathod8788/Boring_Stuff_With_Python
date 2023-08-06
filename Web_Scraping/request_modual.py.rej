@@ -1,0 +1,9 @@
+diff a/Web_Scraping/request_modual.py b/Web_Scraping/request_modual.py	(rejected hunks)
+@@ -10,4 +10,5 @@
+ 
+ # res.raise_for_status()
+ 
+-print(res.raise_for_status())
+\ No newline at end of file
++print(res.raise_for_status())
++
