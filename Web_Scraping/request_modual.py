@@ -11,4 +11,3 @@ print(res.text[:500])
 # res.raise_for_status()
 
 print(res.raise_for_status())
-
